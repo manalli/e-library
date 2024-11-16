@@ -1,0 +1,11 @@
+[submodule "e-library-backend"]
+    path = e-library-backend
+    url = https://github.com/manalli/e-library-backend.git
+
+[submodule "e-library-frontend"]
+    path = e-library-frontend
+    url = https://github.com/manalli/e-library-frontend.git
+
+[submodule "PPT"]
+    path = PPT
+    url = https://github.com/manalli/PPT.git
