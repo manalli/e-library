@@ -1,0 +1,13 @@
+/* src/pages/HomePage.css */
+.home-page {
+    background-image: url('https://miro.medium.com/v2/resize:fit:640/format:webp/1*1gJ8Pl7YOfvsnm6km88UUg.gif');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: black;
+    padding: 20px;
+    text-align: center;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  

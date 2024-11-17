@@ -1,0 +1,101 @@
+/* src/pages/LoginPage.css */
+
+/* Main container for the login page */
+.login-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Left column (image and text) */
+.left-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.login-image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+/* Text inside the left column */
+.text {
+    text-align: center;
+    color: #333;
+}
+
+.text h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Right column (login/signup form) */
+.right-column {
+    flex: 1;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Form input fields */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Submit button styling */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+/* Toggle between Log In and Sign Up */
+.toggle-signup-login {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.toggle-btn {
+    background: none;
+    border: none;
+    color: #4CAF50;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.toggle-btn:hover {
+    text-decoration: underline;
+}
